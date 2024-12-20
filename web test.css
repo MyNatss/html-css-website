@@ -1,0 +1,815 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?cs=srgb&dl=pexels-eberhardgross-1287145.jpg&fm=jpg);
+            /* เปลี่ยนเป็น URL รูปภาพ */
+            background-size: cover;
+            /* ให้รูปภาพเต็มจอ */
+            background-repeat: no-repeat;
+            /* ไม่ให้รูปซ้ำ */
+            background-position: center;
+            /* จัดรูปตรงกลาง */
+
+}
+
+.top {
+    text-align: center;
+    font-family: 'roboto';
+    justify-content: center;
+    height: 75px;
+    width: 40%;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+.top h1 {
+    padding-top: 20px;
+
+}
+
+.main {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+
+}
+
+.img {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img img {
+    width: 100%;
+
+}
+
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content p {
+    color: #000000;
+}
+
+
+.main2 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img2 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img2 img {
+    width: 100%;
+
+}
+
+.content2 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content2 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content2 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content2 p {
+    color: #000000;
+}
+
+.main3 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img3 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img3 img {
+    width: 100%;
+
+}
+
+.content3 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content3 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content3 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content3 p {
+    color: #000000;
+}
+
+.cardmain {
+    display: flex;
+    /* ทำให้คอนเทนเนอร์เป็น Flexbox */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    /* ให้การ์ดขึ้นบรรทัดใหม่เมื่อเต็มพื้นที่ */
+    margin: 5px;
+
+}
+
+.main4 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img4 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img4 img {
+    width: 100%;
+
+}
+
+.content4 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content4 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content4 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content4 p {
+    color: #000000;
+}
+
+.main5 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img5 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img5 img {
+    width: 100%;
+
+}
+
+.content5 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content5 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content5 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content5 p {
+    color: #000000;
+}
+
+.main6 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img6 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img6 img {
+    width: 100%;
+
+}
+
+.content6 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content6 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content6 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content6 p {
+    color: #000000;
+}
+
+.main7 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img7 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img7 img {
+    width: 100%;
+
+}
+
+.content7 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content7 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content7 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.content7 p {
+    color: #000000;
+}
+
+.main8 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img8 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img8 img {
+    width: 100%;
+
+}
+
+.content8 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content8 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content8 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main9 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img9 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img9 img {
+    width: 100%;
+
+}
+
+.content9 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content9 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content9 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main10 {
+    width: 360px;
+    margin: 2rem auto;
+    height: 560px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    overflow: hidden;
+    font-family: 'Roboto';
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* การเปลี่ยนแปลงที่นุ่มนวล */
+}
+
+.img10 {
+    height: 250px;
+    background: brown;
+    overflow: hidden;
+}
+
+.img10 img {
+    width: 100%;
+
+}
+
+.content10 {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.content10 h3 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content10 a {
+    margin: 1rem 0;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.newyork {
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 30px;
+}
+
+.newyork:hover {
+    color: gold;
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+}
+
+.rome {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.rome:hover {
+    color: gold;
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+}
+
+.bangkok {
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 30px;
+}
+
+.bangkok:hover {
+    color: gold;
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+}
+
+.paris {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.paris:hover {
+    color: gold;
+    font-size: 40px;
+    transition: font-size 0.3s ease;
+}
+
+.main:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main2:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main3:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main4:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main5:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main6:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main7:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main8:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main9:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.main10:hover {
+    transform: translateY(-10px);
+    /* การ์ดขยับขึ้นเล็กน้อย */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    /* เงาที่เพิ่มขึ้น */
+}
+
+.top2 a {
+    font-family: 'roboto';
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.top2 :hover {
+    background-color: rgb(253, 88, 88);
+}
+
+.top2 {
+    width: 120px;
+    height: 60px;
+    background-color: rgb(201, 21, 8);
+    border-end-end-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+    z-index: 1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* ทำให้การเลื่อนสมูท */
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    height: 200px;
+    width: 100%;
+    gap: 5px;
+}
+
+.container a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'roboto';
+
+}
+
+
+.container a:hover {
+    color: aqua;
+    font-size: 30px;
+    transition: color 0.5 ease;
+    font-size: 30px;
+    transition: font-size 0.3s ease;
+}
